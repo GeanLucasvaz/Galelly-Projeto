@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Cupcake's</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>CUPCAKE'S</h1>
+            <h1>Menu de Compra</h1>
+            <div class="caixa">
+                <h2><img class="img1" src="logo.png">
+                <nav>
+                    <ul>
+                        <li><a href="menuprinc.html">Home</a></li>
+                        <li><a href="novidades.html">Novidades</a></li>
+                        <li><a class="Diabétes" href="diabéticos.html">Produtos-Light</a></li>
+                        <li><a href="contatos.html"><img class="Notifi" src="zap.png"></a>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+            <main class="compras">
+                <form>
+                    <label for="nomesobrenome">Nome e Sobrenome</label>
+                    <input type="text" id="nomesobrenome" class="input-padrão" required>
+
+                    <label>Email</label>
+                    <input type="email" id="Email" class="input-padrão" required placeholder="Seuemail@domínio.com">
+
+                    <label>Telefone</label>
+                    <input type="number" id="Telefone" class="input-padrão" required placeholder="(XX) XXXXX-XXXX">
+
+                    <label for="Mensagem">Endereço Completo</label>
+                    <textarea cols="70" rows="10" id="Mensagem" class="input-padrão" required></textarea>
+                    
+                    <label class="Checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+                <fieldset>
+                    <legend>Qual a forma de Pagamento</legend>
+                        <label><input name="contato" type="radio">Pix</label>
+                        
+                        <label><input name="contato" type="radio">Dinheiro</label>
+                        
+                        <label><input name="contato" checked type="radio">Cartão</label>
+                </fieldset>
+                <button><a href="enviado.html">Enviar Pedido</a></button>
+                </form>
+            </main>
+        <footer>
+            <p class="Direitos">&copy; Galelly Bolos - 2023</p>
+            <ul>
+                <li><a class="noz" href="sobre.html">Sobre Nós</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
