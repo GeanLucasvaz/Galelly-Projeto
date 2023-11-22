@@ -1,0 +1,513 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header {
+    background: rgb(255, 175, 188);
+	padding: 20px 0;
+}
+
+h1 {
+	text-align: center;
+	font-size: 80px;
+	padding: 50px 0 0;
+	color: blueviolet;
+	font-style: italic;
+	text-shadow: 5px 5px 5px purple;
+}
+
+.caixa {
+	position: relative;
+	width: 960px;
+	margin: 0 50px 0 0;
+	display: block;
+}
+
+.img1 {
+	width: 400px;
+	text-align: center;
+	padding: 0 0 0 10px;
+}
+
+.img {
+	width: 300px;
+	padding: 0 0 0 1280px;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	left: 700px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 5px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: wheat;
+    font-weight: bold;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+nav a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+	text-decoration: none;
+}
+
+.produtos img {
+	width: 60%;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 6px dashed white;
+	border-radius: 20px;
+}
+
+.produtos li:hover {
+	border-color: yellow;
+}
+
+.produtos li:active {
+	border-color: lightskyblue;
+}
+
+.produtos li:hover h2 {
+	font-size: 40px;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.descrição {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.produtos li:hover .descrição {
+	font-size: 30px;
+}
+
+.preço {
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.produtos li:hover .preço {
+	font-size: 40px;
+}
+
+footer {
+	text-align: center;
+	background: rgb(255, 175, 188);
+	padding: 40px 0;
+}
+
+.Direitos {
+	font-size: 20px;
+	color: black;
+}
+
+.compras {
+	padding-left: 500px;
+}
+
+main {
+	margin: 0 auto;
+	background: linear-gradient(45deg, Pink 0%, Plum 25%, Violet 50%, blueviolet 75%);
+	width: 100%;
+}
+
+.panf {
+	background: rgb(255, 139, 255);
+}
+
+.panfleto {
+    width: 25%;
+    padding-left: 720px;
+}
+
+.Enfeites {
+	display: inline-block;
+	width: 15%;
+	padding-left: 30px;
+	padding-bottom: 40px;
+	margin: 0 0 0 40px;
+}
+
+.Tem h3 {
+	font-size: 30px;
+	display: inline;
+	margin: 0 0 0 200px;
+}
+
+.dentro {
+	color: rgb(0, 180, 0);
+	font-style: bold;
+}
+
+.fora {
+	color: crimson;
+	font-style: bold;
+}
+
+form {
+	padding: 40px 0;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrão {
+	display: block;
+	margin: 0 0 20px;
+	padding: 15px 25px;
+	width: 50%;
+}
+
+.Checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 40%;
+	padding: 5px 0;
+	color: wheat;
+	background-color: plum;
+	font-weight: bold;
+	font-size: 15px;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: violet;
+	transform: scale(1.2);
+}
+
+.cab {
+	background: gray;
+	color: white;
+	font-weight: bold;
+}
+
+table {
+	margin: 20px 0 40px;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 8px 15px;
+}
+
+tbody {
+	background: blue;
+}
+
+.Banner {
+	width: 100%;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+}
+
+.principal p {
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.imagembeneficios {
+	width: 60%;
+}
+
+.obrigado {
+	width: 40%;
+	padding-left: 550px;
+}
+
+.Flw {
+	color: blueviolet;
+	text-align: center;
+	font-size: 40px;
+	padding-top: 50px;
+	font-style: italic;
+}
+
+.novidades ul {
+	width: 1000px;
+}
+
+.novidades li, .text2 {
+	font-size: 30px;
+	color: wheat;
+	margin: 0 auto;
+	font-style: italic;
+}
+
+#Title {
+	color: cyan;
+	font-size: 40px;
+	font-style: italic;
+}
+
+.nov {
+	width: 200px;
+	float: left;
+	margin: 0 20px 20px 20px;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px black;
+}
+
+.ida {
+	width: 200px;
+	float: right;
+	margin-top: -30px;
+	margin-right: 20px;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px black;
+	padding-left: 7px;
+}
+
+.de {
+	width: 350px;
+	float: left;
+	margin: 0 20px 20px 20px;
+	padding-top: -30px;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px black;
+}
+
+.text2 {
+	margin-left: 1200px;
+	text-align: right;
+}
+
+.lista li:before {
+	content: "🎂";
+}
+
+.text2:before {
+	content: "🎂";
+}
+
+.Dia {
+	background: linear-gradient(45deg, yellow 30%, lime 50%, lightskyblue 70%);
+}
+
+.produto {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+	text-decoration: none;
+}
+
+.produto img {
+	width: 60%;
+}
+
+.produto li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 6px dashed black;
+	border-radius: 20px;
+}
+
+.produto li:hover {
+	border-color: red;
+}
+
+.produto li:active {
+	border-color:darkblue
+}
+
+.produto li:hover h2 {
+	font-size: 40px;
+}
+
+.produto h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto li:hover .descrição {
+	font-size: 30px;
+}
+
+.produtos li:hover .preço {
+	font-size: 40px;
+}
+
+.Pag {
+	background: linear-gradient(45deg, red 0, orange 15%, yellow 30%, lime 45%, lightskyblue 70%, blueviolet 90%);
+}
+
+.Pag h1 {
+	color: rgb(255, 255, 107);
+}
+
+.Pag h1:before {
+	content: "🌟";
+}
+
+.Pag h1:after {
+	content: "🌟";
+}
+
+.Diabétes {
+	color: blue;
+}
+
+.final {
+	width: 200px;
+	padding-left: 50px;
+}
+
+.final2 {
+	width: 200px;
+	padding-left: 1350px;
+}
+
+.Notifi {
+	width: 10%;
+}
+
+.noz {
+	text-transform: uppercase;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.titulo-principal {
+	padding-left: 20px;
+	text-align: center;
+	font-style: italic;
+	color: gold;
+}
+
+.Missão {
+	font-size: 25px;
+	color: gold;
+}
+
+p {
+	text-align: center;
+	font-style: italic;
+	font-size: 35px;
+}
+
+.Para1 {
+	text-align: center;
+	font-style: italic;
+	font-size: 35px;
+	color: cyan;
+	margin: 0 15px;
+}
+
+.Para {
+	text-align: center;
+	font-style: italic;
+	font-size: 35px;
+	color: cyan;
+}
+
+.mapa-conteudo {
+	margin: 0 auto;
+	padding-left: 625px;
+}
+
+.mapa {
+	padding: 2em 0;
+}
+
+.Esta {
+	color: gold;
+}
