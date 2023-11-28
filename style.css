@@ -512,6 +512,6 @@ p {
 	color: gold;
 }
 
-.butão {
-	font-size: 20px;
+.butão a {
+	font-size: 25px;
 }
